@@ -4,7 +4,7 @@ require 'sinatra/reloader'
 require "sqlite3"
 
 def init_db
-	@db = SQLite3::Database.new 'trollhomeland.db'
+	@db = SQLite3::Database.new '/home/qq/myapp/myblog/trollhomeland.db'
 	@db.results_as_hash = true
 end
 
