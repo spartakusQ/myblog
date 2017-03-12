@@ -25,7 +25,7 @@ end
 
 
 get '/' do
-	erb "Hello Troll!"
+	erb :index
 end
 
 get '/new' do
